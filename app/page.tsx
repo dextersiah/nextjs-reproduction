@@ -1,4 +1,9 @@
-/** Add your relevant code here for the issue to reproduce */
+import NextLink from "next/link";
+
 export default function Home() {
-  return null
+  return (
+    <main>
+      <NextLink href="/login">To Login</NextLink>
+    </main>
+  )
 }
